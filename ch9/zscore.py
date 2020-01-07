@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 05 11:01:18 2016
-
-@author: megan
 """
 
+#After importing Numpy, we read in our data list and store it as a Numpyarray:
 import numpy as np
 with open('sloc.txt', encoding='utf-8') as f:
     data = f.readlines()
